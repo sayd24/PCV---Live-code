@@ -1,28 +1,39 @@
 # Live Code PCV
 
-Repo ini berisi kumpulan script untuk tugas live code mata kuliah Pengolahan Citra dan Video (PCV).
+Repositori ini berisi tugas live code untuk mata kuliah Pengolahan Citra dan Video (PCV).
 
 ## Daftar File
 
-* **`1-Intro.py`**
-  Berisi operasi dasar OpenCV seperti read image dan show image, serta penerapan filter warna pada gambar dan video.
+* **1-Intro.py**: Operasi dasar OpenCV, membaca gambar, dan filter warna pada gambar serta video.
+* **2-ti-eq.py**: Penerapan transformasi intensitas dan ekualisasi histogram secara manual tanpa fungsi bawaan.
+* **3-filter-spasial.py**: Penerapan berbagai macam filter spasial (lowpass, highpass, deteksi tepi) pada gambar.
 
-* **`2-ti-eq.py`**
-  Penerapan transformasi intensitas dan ekualisasi histogram. Bagian ini dikerjakan manual (from scratch) menggunakan loop dan array, dilarang pakai fungsi instan bawaan package.
+---
 
-* **`3-filter-spasial.py`**
-  Penerapan berbagai macam filter spasial pada gambar, termasuk penggunaan kernel untuk konvolusi/korelasi (lowpass, highpass, deteksi tepi).
+## Dokumentasi Hasil
 
-## Aset dan Dokumentasi
+### Live Code 1: Intro dan Filter Warna
+<img src="Dokumentasi/1/1.asli.png" width="45%"> <img src="Dokumentasi/1/1.merah.png" width="45%">
+<img src="Dokumentasi/1/1.hijau.png" width="45%"> <img src="Dokumentasi/1/1.biru.png" width="45%">
 
-* **Gambar Asli:** [grha_its.jpg](masukkan_link_foto_asli_disini)
-* **Screenshot LC 1 (Intro):** [Lihat gambar](masukkan_link_hasil_1_disini)
-* **Screenshot LC 2 (Transformasi & Ekualisasi):** [Lihat gambar](masukkan_link_hasil_2_disini)
-* **Screenshot LC 3 (Filter Spasial):** [Lihat gambar](masukkan_link_hasil_3_disini)
-* **Video Demo Live Code:** [Tonton video](masukkan_link_video_disini)
+**Video Demo:**
+<br>
+<video src="https://github.com/sayd24/PCV---Live-code/raw/main/Dokumentasi/1/1.vid.mp4" autoplay loop muted playsinline width="50%"></video>
 
-## Cara Menjalankan
+### Live Code 2: Transformasi Intensitas dan Ekualisasi
+<img src="Dokumentasi/2/2.asli.png" width="45%"> <img src="Dokumentasi/2/2.ekual.png" width="45%">
+<img src="Dokumentasi/2/2.gamma0.4.png" width="45%"> <img src="Dokumentasi/2/2.log.png" width="45%">
+<img src="Dokumentasi/2/2.negatif.png" width="45%">
 
-Pastikan package yang dibutuhkan sudah terinstal:
-```bash
-pip install opencv-python numpy matplotlib
+### Live Code 3: Filter Spasial
+<img src="Dokumentasi/3/3.asli.png" width="45%"> <img src="Dokumentasi/3/3.box.png" width="45%">
+<img src="Dokumentasi/3/3.gauss.png" width="45%"> <img src="Dokumentasi/3/3.median.png" width="45%">
+<img src="Dokumentasi/3/3.sobel.png" width="45%"> <img src="Dokumentasi/3/3.unsharp.png" width="45%">
+
+---
+
+## Cara Menjalankan Program
+
+1. Lakukan instalasi library yang dibutuhkan dengan menjalankan perintah:
+   ```bash
+   pip install opencv-python numpy matplotlib
