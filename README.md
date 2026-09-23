@@ -18,7 +18,7 @@ Repositori ini berisi tugas live code untuk mata kuliah Pengolahan Citra dan Vid
 
 **Video Demo:**
 <br>
-<video src="https://github.com/sayd24/PCV---Live-code/raw/main/Dokumentasi/1/1.vid.mp4" autoplay loop muted playsinline width="50%"></video>
+<video src="https://github.com/user-attachments/assets/98ff12e5-6c00-4c7f-b733-fabf4beaf2c4" autoplay loop muted playsinline></video>
 
 ### Live Code 2: Transformasi Intensitas dan Ekualisasi
 <img src="Dokumentasi/2/2.asli.png" width="45%"> <img src="Dokumentasi/2/2.ekual.png" width="45%">
